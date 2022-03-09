@@ -36,3 +36,41 @@ img {
 figcaption {
   text-align: center;
 }
+
+td, th{
+  border: 1px solid;
+  padding: 0.2em 0.7em;
+}
+
+th { text-align: left;
+  background-color: #FFC;} /* light yellow */
+td { text-align: right; 
+  background-color: #CFF;} /* light cyan */
+
+table {
+  border-collapse: collapse;
+  border: 3px solid;
+}
+
+table.hoge {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 3px solid black;
+}
+
+table.hoge td {
+  text-align: right;
+  padding: 0.2em 0.7em;
+  border: 1px solid gray;
+  background-color: #CFF;
+}
+
+table.hoge th {
+  text-align: left;
+  padding: 0.2em 0.7em;
+  border: 1px solid gray;
+  background-color: #FFC;
+}
+
+caption {caption-side: bottom}
